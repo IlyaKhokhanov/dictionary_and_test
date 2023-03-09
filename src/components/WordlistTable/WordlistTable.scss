@@ -1,0 +1,20 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+
+  &-row {
+    border-bottom: 1px solid rgb(200, 200, 200);
+  }
+
+  &-cell {
+    padding: 5px;
+    border-bottom: 1px solid rgb(200, 200, 200);
+    text-align: center;
+    line-height: 35px;
+    font-weight: 400;
+  }
+}
+
+.hidden {
+  opacity: 0;
+}

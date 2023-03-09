@@ -1,6 +1,6 @@
 import React, { lazy, Suspense, useCallback, useMemo } from "react";
 import produce from "immer";
-import { Button } from "../Button";
+import { MainButton } from "../buttons/MainButton";
 import { Loader } from "../Loader";
 import "./Form.scss";
 import { SelectedModulesContext } from "../../state/SelectedModulesContext";
@@ -57,12 +57,12 @@ export function Form() {
       ))}
       {!!checkedModules.size && (
         <div className='form-btn--wrapper'>
-          <Button buttonClass='form-btn' to='/wordlist'>
+          <MainButton buttonClass='form-btn' to='/wordlist'>
             Wordlist
-          </Button>
-          <Button buttonClass='form-btn' to='/test'>
+          </MainButton>
+          <MainButton buttonClass='form-btn' to='/test'>
             Test
-          </Button>
+          </MainButton>
         </div>
       )}
     </div>

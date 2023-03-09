@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "../Button";
+import { MainButton } from "../buttons/MainButton";
 import "./Header.scss";
 
 export function Header(props) {
@@ -8,7 +8,7 @@ export function Header(props) {
   return (
     <header className='header'>
       <p className='header-title'>{children}</p>
-      <Button buttonClass={buttonClass}>Back to select</Button>
+      <MainButton buttonClass={buttonClass}>Back to select</MainButton>
     </header>
   );
 }

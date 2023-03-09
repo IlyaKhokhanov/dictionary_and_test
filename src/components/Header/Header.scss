@@ -5,6 +5,11 @@
   justify-content: space-between;
 
   &-title {
-    font-size: 40px;
+    font-size: 45px;
+  }
+
+  &-btn {
+    display: none;
+    margin-left: 25px;
   }
 }

@@ -1,0 +1,26 @@
+.icon-button {
+  padding: 0 5px;
+  position: relative;
+  background: inherit;
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+
+  &:hover {
+    opacity: 0.5;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+
+  &:disabled {
+    opacity: 0.3;
+  }
+
+  img {
+    height: 40px;
+    position: absolute;
+    transform: translateY(-28px);
+  }
+}

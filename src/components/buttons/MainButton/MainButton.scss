@@ -1,21 +1,23 @@
+@import "../../../style/vars.scss";
+
 .btn {
   text-decoration: none;
   padding: 6px 14px;
   margin-left: 15px;
   border: 1px solid;
   border-radius: 10px;
-  font-size: 20px;
+  font-size: 25px;
   cursor: pointer;
   background: inherit;
-  color: rgb(40, 40, 40);
-  border: 1px solid rgb(40, 40, 40);
+  color: $mainBlackColor;
+  border: 1px solid $mainBlackColor;
 
   &:hover {
     opacity: 0.6;
   }
 
   &:active {
-    background: rgb(40, 40, 40);
-    color: rgb(233, 233, 233);
+    background: $mainBlackColor;
+    color: $mainGreyColor;
   }
 }

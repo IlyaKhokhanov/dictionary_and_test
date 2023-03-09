@@ -1,3 +1,5 @@
+@import "../../style/vars.scss";
+
 .loader {
   display: inline-block;
   width: 40px;
@@ -10,8 +12,8 @@
     margin: 8px;
     opacity: 0.6;
     border-radius: 50%;
-    border: 6px solid rgb(40, 40, 40);
-    border-color: rgb(40, 40, 40) transparent rgb(40, 40, 40) transparent;
+    border: 6px solid $mainBlackColor;
+    border-color: $mainBlackColor transparent $mainBlackColor transparent;
     animation: loader 1.7s linear infinite;
   }
 }

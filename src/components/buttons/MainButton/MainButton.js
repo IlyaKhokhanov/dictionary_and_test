@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Button.scss";
+import "./MainButton.scss";
 
-export function Button(props) {
+export function MainButton(props) {
   const { buttonClass, to, children } = props;
 
   return (
